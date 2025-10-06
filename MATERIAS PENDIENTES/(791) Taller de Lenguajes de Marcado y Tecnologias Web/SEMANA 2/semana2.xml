@@ -1,0 +1,222 @@
+<!--Sobre XML-->
+<!--Ejercicio 1.
+Crea un archivo XML que represente la información de un libro con los siguientes datos:
+título, autor, año de publicación y género.-->
+
+<libro>
+    <titulo> Tapu Koko </titulo>
+    <autor> NamuKimeraVT </autor>
+    <fecha_publicacion> 19/2/2024 </fecha_publicacion>
+    <genero> Terror </genero>
+</libro>
+
+<!--Ejercicio 2.
+Crea un documento XML que represente la estructura de un menú de un restaurante. Debe
+incluir secciones para entradas, platos principales, postres y bebidas, cada una con varios
+elementos que representen los ítems del menú.-->
+
+<menu>
+    <seccion_entradas>
+        <entradas_veganas>
+            <A>
+                <nombre>Empanada de verdura</nombre>
+                <precio> 1000 </precio>
+            </A>
+            <B>
+                <nombre>Papas Veganas</nombre>
+                <precio> 2500 </precio>
+            </B>
+        </entradas_veganas>
+        <entradas_saladas>
+            <A>
+                <nombre>Empanada de carne cortada a cuchillo</nombre>
+                <precio> 900 </precio>
+            </A>
+            <B>
+                <nombre>Papas Rusticas</nombre>
+                <precio> 2500 </precio>
+            </B>
+        </entradas_saladas>
+    </seccion_entradas>
+    <seccion_plato_principal>
+        <carnes>
+            <A>
+                <nombre>Vacio con Provoleta</nombre>
+                <precio> 6000 </precio>
+            </A>
+            <B>
+                <nombre>Churrasco a la BBQ</nombre>
+                <precio> 5000 </precio>
+            </B>
+        </carnes>
+        <pizzas>
+            <A>
+                <nombre> Calabresa </nombre>
+                <precio> 6000 </precio>
+            </A>
+            <B>
+                <nombre> jamon crudo c/rucula </nombre>
+                <precio> 5000 </precio>
+            </B>
+        </pizzas>
+        <Veganos>
+            <A>
+                <nombre>Sopa Vegana</nombre>
+                <precio> 3000 </precio>
+            </A>
+            <B>
+                <nombre>Churrasco a base de plantas</nombre>
+                <precio> 7000 </precio>
+            </B>
+        </Veganos>
+    </seccion_plato_principal>
+    <postres>
+        <A>
+            <nombre>Helado Cassata</nombre>
+            <precio> 4000 </precio>
+        </A>
+        <B>
+            <nombre>Flan</nombre>
+            <precio> 2000 </precio>
+        </B>
+    </postres>
+    <bebidas>
+        <A>
+            <nombre> Coca Zero </nombre>
+            <precio> 1500 </precio>
+        </A>
+        <B>
+            <nombre> Sprite </nombre>
+            <precio> 1500 </precio>
+        </B>
+    </bebidas>
+</menu>
+
+<!--Ejercicio 3 (HECHO).
+Encuentra y corrige el error en el siguiente fragmento XML que representa la información de
+un estudiante:-->
+
+<estudiante>
+    <nombre>Pablo Rodriguez</nombre>
+    <edad>21</edad>
+    <carrera>Ingeniería en Informática</carrera>
+    <cursos>
+        <curso>Matemáticas</curso>
+        <curso>Física</curso>
+    </cursos>
+</estudiante>
+
+<!--Ejercicio 4.
+Crea un documento XML que represente la información de una tienda en línea, incluyendo
+categorías de productos, nombres de productos, precios y descripciones. La tienda debe
+tener al menos dos categorías y varios productos en ellas.-->
+
+<tienda>
+    <categoría1>
+        <producto1>
+            <nombre> Ventilador </nombre>
+            <precio> 10000 </precio>
+            <descripcion> Ventilador de 550W color negro </descripcion>
+        </producto1>
+        <producto2>
+            <nombre> Heladera </nombre>
+            <precio> 500000 </precio>
+            <descripcion> Heladera de 550W color plateado </descripcion>
+        </producto2>
+        <producto3>
+            <nombre> Horno Electrico </nombre>
+            <precio> 200000 </precio>
+            <descripcion> Horno Electrico de 550W color plateado </descripcion>
+        </producto3>
+        <producto4>
+            <nombre> Horno </nombre>
+            <precio> 100000 </precio>
+            <descripcion> Horno a gas color blanco </descripcion>
+        </producto4>
+    </categoría1>
+    <categoría2>
+        <producto1>
+            <nombre> Afiladora de cuchillos </nombre>
+            <precio> 1000 </precio>
+            <descripcion> Afiladora de cuchillos metalica color plateado </descripcion>
+        </producto1>
+        <producto2>
+            <nombre> Licuadora </nombre>
+            <precio> 50000 </precio>
+            <descripcion> Licuadora de 150W color negro </descripcion>
+        </producto2>
+        <producto3>
+            <nombre> Wafflera </nombre>
+            <precio> 20000 </precio>
+            <descripcion> Wafflera de 50W color plateado </descripcion>
+        </producto3>
+        <producto4>
+            <nombre> Mezcladora </nombre>
+            <precio> 10000 </precio>
+            <descripcion> Mezcladora de 100W color blanco </descripcion>
+        </producto4>
+    </categoría2>
+</tienda>
+
+<!--Ejercicios combinados
+Ejercicio 10.
+Convierte el JSON del ejercicio 8 en un documento XML equivalente.-->
+
+<catalogo>
+    <genero1>
+        <peli1>
+            <titulo> La monja </titulo>
+            <director> Corin Hardy </director>
+            <sinopsis> En Rumania , en 1952 , dos monjas católicas que vivían en el 
+        monasterio de Santa Cartha son atacadas por una fuerza maligna invisible. </sinopsis>
+        </peli1>
+        <peli2>
+            <titulo> La monja 2 </titulo>
+            <director> Michael Chaves </director>
+            <descripcion> En 1956, el padre Noiret y su monaguillo, Jacques, realizan las tareas cotidianas de su iglesia en Tarascón , 
+        Francia. Mientras investigan un disturbio, Noiret es elevado por los aires, prendido fuego y quemado vivo ante un Jacques aterrorizado. </sinopsis>
+        </peli2>
+        <peli3>
+            <titulo> El Conjuro </titulo>
+            <director> James Wan </director>
+            <sinopsis> En 1971, Roger y Carolyn Perron (Ron Livingston y Lili Taylor) son un matrimonio que se traslada con sus cinco hijas Christine (Joey King), 
+        Andrea (Shanley Caswell), Nancy (Hayley McFarland), Cindy (Mackenzie Foy) y April (Kyla Deaver), a una granja en Harrisville, Rhode Island. </sinopsis>
+        </peli3>
+        <peli4>
+            <titulo> El Conjuro 2 </titulo>
+            <director> James Wan </precio>
+            <sinopsis> En 1976, los investigadores paranormales Ed y Lorraine Warren investigan los asesinatos de Amityville en la casa de Amityville 
+        para determinar si una presencia demoníaca fue la verdadera responsable del asesinato de Ronald DeFeo Jr. a toda su familia el 13 de noviembre 
+        de 1974 y del posterior incidente fantasmal que involucró a la familia Lutz . Durante una sesión espiritista , Lorraine tiene una visión donde 
+        se encuentra con la figura de una monja demoníaca y presencia cómo empalan a Ed </sinopsis>
+        </peli4>
+    </genero1>
+    <genero2>
+        <peli1>
+            <titulo> El hombre perfecto </titulo>
+            <precio> Mark Rosman </director>
+            <sinopsis> Jean, una madre soltera con un historial de mudarse cada vez que termina una relación, se muda a Brooklyn con su hija adolescente, Holly. 
+        Frustrada por la constante conmoción, Holly idea un plan para evitar que su madre caiga en otro romance condenado al fracaso y desarraigue sus vidas de nuevo. 
+        Se inventa un admirador secreto para fortalecer la confianza de Jean y mantenerla con los pies en la tierra. </sinopsis>
+        </peli1>
+        <peli2>
+            <titulo> Como si fuera la primera vez </titulo>
+            <director> Peter Segal </director>
+            <sinopsis> Henry Roth (Adam Sandler), un veterinario marino que vive en Hawái, conoce casualmente una mañana a Lucy Whitmore (Drew Barrymore), 
+        una profesora de arte, en una cafetería. </sinopsis>
+        </peli2>
+        <peli3>
+            <titulo> Violet y Finch </titulo>
+            <director> Brett Haley </director>
+            <sinopsis> La historia de dos jóvenes con profundos problemas emocionales, Violet intenta superar la muerte de su hermana mayor, 
+        quien falleció en un accidente automovilístico. </sinopsis>
+        </peli3>
+        <peli4>
+            <titulo> Un amor para recordar </titulo>
+            <director> Adam Shankman </director>
+            <sinopsis> Landon es un chico rebelde y Jamie es la chica buena, hija del reverendo. 
+        Hasta antes de interpretar una obra juntos ellos dos no hablaban y él se burlaba de ella 
+        con sus amigos, pero al causar un accidente, Landon es obligado a participar en una obra teatral. </sinopsis>
+        </peli4>
+    </genero2>
+</catalogo>

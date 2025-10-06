@@ -1,0 +1,150 @@
+Sobre JSON
+
+Ejercicio 5.
+Crea un objeto JSON que represente la información de un estudiante con los siguientes
+datos: nombre, edad, carrera y lista de cursos.
+
+{
+    "nombre": "King Castro",
+    "edad": 25,
+    "carrera": "Programación",
+    "cursos": ["Python", "GitHub"]
+}
+
+Ejercicio 6.
+Crea un objeto JSON que represente la información de una receta de cocina,
+incluyendo el nombre de la receta, los ingredientes y los pasos a seguir.
+
+{
+    "nombre": "Pizza con queso de cabra",
+    "ingredientes": ["4 cucharadas de sal", "200g de harina de avena", "4 tazas de agua", "2 cubos de levadura", "300g de queso de cabra"],
+    "pasos": ["poner 200g de la harina en un bol con la sal y la levadura", 
+            "agregar 4 tazas de agua y mezclar por 10 minutos", 
+            "Dejar reposar por 30 minutos", 
+            "Amasar con un palo, una vez aplanada, meter la salsa de tomate y hornear por 10 minutos",
+            "luego poner el queso de cabra y meter al horno por 5 minutos, y a disfrutar"]
+}
+
+Ejercicio 7 (HECHO).
+Encuentra y corrige el error en el siguiente objeto JSON que representa la información de
+un estudiante:
+{
+    "nombre": "María López",
+    "edad": 22,
+    "carrera": "Administración de Empresas",
+    "cursos": ["Economía", "Contabilidad"]
+}
+
+Ejercicio 8.
+Crea un objeto JSON que represente la información de un catálogo de películas de un
+servicio de streaming, incluyendo géneros, títulos, directores y sinopsis. El catálogo debe
+tener al menos dos géneros y varios títulos en ellos.
+
+{
+    "genero1" {
+        "peli1" {
+        "titulo": "La monja",
+        "director": "Corin Hardy",
+        "sinopsis": "En Rumania , en 1952 , dos monjas católicas que vivían en el 
+        monasterio de Santa Cartha son atacadas por una fuerza maligna invisible.",
+        },
+        "peli2" {
+        "titulo": "La monja 2",
+        "director": "Michael Chaves",
+        "sinopsis": "En 1956, el padre Noiret y su monaguillo, Jacques, realizan las tareas cotidianas de su iglesia en Tarascón , 
+        Francia. Mientras investigan un disturbio, Noiret es elevado por los aires, prendido fuego y quemado vivo ante un Jacques aterrorizado."
+        },
+        "peli3" {
+        "titulo": "El Conjuro",
+        "director": "James Wan",
+        "sinopsis": "En 1971, Roger y Carolyn Perron (Ron Livingston y Lili Taylor) son un matrimonio que se traslada con sus cinco hijas Christine (Joey King), 
+        Andrea (Shanley Caswell), Nancy (Hayley McFarland), Cindy (Mackenzie Foy) y April (Kyla Deaver), a una granja en Harrisville, Rhode Island. ",
+        },
+        "peli4" {
+        "titulo": "El Conjuro 2",
+        "director": "James Wan",
+        "sinopsis": "En 1976, los investigadores paranormales Ed y Lorraine Warren investigan los asesinatos de Amityville en la casa de Amityville 
+        para determinar si una presencia demoníaca fue la verdadera responsable del asesinato de Ronald DeFeo Jr. a toda su familia el 13 de noviembre 
+        de 1974 y del posterior incidente fantasmal que involucró a la familia Lutz . Durante una sesión espiritista , Lorraine tiene una visión donde 
+        se encuentra con la figura de una monja demoníaca y presencia cómo empalan a Ed"
+        }
+    }
+    "genero2" {
+        "peli1" {
+        "titulo": "El hombre perfecto",
+        "director": "Mark Rosman",
+        "sinopsis": "Jean, una madre soltera con un historial de mudarse cada vez que termina una relación, se muda a Brooklyn con su hija adolescente, Holly. 
+        Frustrada por la constante conmoción, Holly idea un plan para evitar que su madre caiga en otro romance condenado al fracaso y desarraigue sus vidas de nuevo. 
+        Se inventa un admirador secreto para fortalecer la confianza de Jean y mantenerla con los pies en la tierra.",
+        },
+        "peli2" {
+        "titulo": "Como si fuera la primera vez",
+        "director": "Peter Segal",
+        "sinopsis": "Henry Roth (Adam Sandler), un veterinario marino que vive en Hawái, conoce casualmente una mañana a Lucy Whitmore (Drew Barrymore), 
+        una profesora de arte, en una cafetería."
+        },
+        "peli3" {
+        "titulo": "Violet y Finch",
+        "director": "Brett Haley",
+        "sinopsis": "La historia de dos jóvenes con profundos problemas emocionales, Violet intenta superar la muerte de su hermana mayor, 
+        quien falleció en un accidente automovilístico.",
+        },
+        "peli4" {
+        "titulo": "Un amor para recordar",
+        "director": "Adam Shankman",
+        "sinopsis": "Landon es un chico rebelde y Jamie es la chica buena, hija del reverendo. 
+        Hasta antes de interpretar una obra juntos ellos dos no hablaban y él se burlaba de ella 
+        con sus amigos, pero al causar un accidente, Landon es obligado a participar en una obra teatral."
+        }
+    }
+}
+
+Ejercicios combinados
+Ejercicio 9.
+Convierte el documento XML del ejercicio 4 a JSON.
+{
+    "categoria1" {
+        "producto1" {
+        "nombre": "Ventilador",
+        "precio": 10000,
+        "descripcion": "Ventilador de 550W color negro",
+        },
+        "producto2" {
+        "nombre": "Heladera",
+        "precio": 500000,
+        "descripcion": "Heladera de 550W color plateado"
+        },
+        "producto3" {
+        "nombre": "Horno Electrico",
+        "precio": 200000,
+        "descripcion": "Horno Electrico de 550W color plateado",
+        },
+        "producto4" {
+        "nombre": "Horno",
+        "precio": 100000,
+        "descripcion": "Horno a gas color blanco"
+        }
+    }
+    "categoria2" {
+        "producto1" {
+        "nombre": "Afiladora de cuchillos",
+        "precio": 1000,
+        "descripcion": "Afiladora de cuchillos metalica color plateado",
+        },
+        "producto2" {
+        "nombre": "Licuadora",
+        "precio": 50000,
+        "descripcion": "Licuadora de 150W color negro"
+        },
+        "producto3" {
+        "nombre": "Wafflera",
+        "precio": 20000,
+        "descripcion": "Wafflera de 50W color plateado",
+        },
+        "producto4" {
+        "nombre": "Mezcladora",
+        "precio": 10000,
+        "descripcion": "Mezcladora de 100W color blanco"
+        }
+    }
+}
