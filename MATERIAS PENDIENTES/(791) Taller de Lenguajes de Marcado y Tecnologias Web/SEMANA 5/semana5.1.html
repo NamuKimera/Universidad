@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas y Formularios</title>
+</head>
+
+<body>
+    <h1><strong>Ejercicio 1</strong></h1>
+    <form action="procesar_formulario.php" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="asunto">Asunto:</label><br>
+        <input type="text" id="asunto" name="asunto"><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+        <br>
+        <iframe width="640" height="480" src="https://www.youtube.com/embed/wv_dJvjuC04"
+            title="Los mejores MAULLIDOS de GATOS 🐱 ¡Gatos MAULLANDO mucho y fuerte! 🐾" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <audio controls>
+            <source src="audio\TRINIST - BROKEN _ Breaks _ NCS - Copyright Free Music.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        <div class="galeria">
+            <div class="galeria-item">
+                <img src="img\domestic-cat-EABDSUL-1024x779.jpg" width="200" alt="Descripción de la imagen 1">
+            </div>
+            <div class="galeria-item">
+                <img src="img\cat-watching-2021-08-26-15-42-24-utc.jpg" width="200" alt="Descripción de la imagen 2">
+            </div>
+            <div class="galeria-item">
+                <img src="img\nationalgeographic_1468962.jpg" width="200" alt="Descripción de la imagen 2">
+            </div>
+        </div>
+
+
+    </form>
+    <br>
+    <h1><strong>Ejercicio 2</strong></h1>
+    <form id="formularioRegistro">
+        <div class="campo-formulario">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="campo-formulario">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="campo-formulario">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+        <div class="campo-formulario">
+            <label for="confirmarPassword">Confirmar contraseña</label>
+            <input type="password" id="confirmarPassword" name="confirmarPassword" required>
+        </div>
+
+        <button type="submit" class="boton-enviar">Registrarse</button>
+    </form>
+
+    <h1><strong>Ejercicio 3</strong></h1>
+    <article>
+        <h1>Los juegos Web</h1>
+        <h2>INTRODUCCION</h2>
+        <p>En este articulo veremos la evolucion de los juegos web despues de la muerte de
+            Adobe Flash Player, hasta la actualidad.
+        </p>
+        <p>
+        </p>
+        <img src="img\Namupaladín 1.0.png" alt="Imagen de ejemplo para el blog" width="846" height="2160">
+        <p>
+
+        </p>
+    </article>
+
+    <h1><strong>Ejercicio 4</strong></h1>
+    <h1>Mi Horario Semanal</h1>
+    <table>
+        <tr>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Sábado</th>
+            <th>Domingo</th>
+        </tr>
+        <tr>
+            <td>9:00 AM</td>
+            <td>Clase de Matemáticas</td>
+            <td>Clase de Inglés</td>
+            <td>Trabajo en Proyecto</td>
+            <td>Clase de Matemáticas</td>
+            <td>Reunión de Equipo</td>
+            <td>Descanso</td>
+            <td>Descanso</td>
+        </tr>
+        <tr>
+            <td>10:00 AM</td>
+            <td>Clase de Matemáticas</td>
+            <td>Clase de Inglés</td>
+            <td>Trabajo en Proyecto</td>
+            <td>Clase de Matemáticas</td>
+            <td>Reunión de Equipo</td>
+            <td>Descanso</td>
+            <td>Descanso</td>
+        </tr>
+        <tr>
+            <td>11:00 AM</td>
+            <td>Clase de Física</td>
+            <td>Clase de Lengua</td>
+            <td>Descanso</td>
+            <td>Clase de Física</td>
+            <td>Almuerzo</td>
+            <td>Actividad Familiar</td>
+            <td>Actividad Familiar</td>
+        </tr>
+        <tr>
+            <td>1:00 PM</td>
+            <td>Almuerzo</td>
+            <td>Almuerzo</td>
+            <td>Almuerzo</td>
+            <td>Almuerzo</td>
+            <td>Clase de Programación</td>
+            <td>Tiempo Libre</td>
+            <td>Tiempo Libre</td>
+        </tr>
+        <tr>
+            <td>3:00 PM</td>
+            <td>Clase de Programación</td>
+            <td>Clase de Programación</td>
+            <td>Clase de Programación</td>
+            <td>Clase de Programación</td>
+            <td>Clase de Programación</td>
+            <td>Deportes</td>
+            <td>Deportes</td>
+        </tr>
+    </table>
+</body>
+
+</html>
