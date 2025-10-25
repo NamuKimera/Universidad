@@ -1,0 +1,11 @@
+ul li::marker {
+  color: blue;
+}
+
+ul {
+  padding-left: 20px; /* Ajusta el valor según la sangría que necesites */
+}
+
+img {
+    opacity: 50%;
+}
